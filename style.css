@@ -1,15 +1,28 @@
-h1{
+
+body {
+        font-family: Baskerville,serif;
+        background-color: #d4b1b1d4;
+        margin: 30px;
+    }
+h1 {
     color: #cf7c7c;
     font-size: 50px;
+    text-align:center;
 }
-    body {
-        font-family: Baskerville, serif;
-        background-color: #e1cccc;
+h2 {
+        color: #2d2626;
+        font-size: 30px;
     }
-    
-    h2 {
-        color: #2d2626;font-size: 30px;
-    p { 
-        color: #2d2626;} 
+    P {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    img {
+        border-radius: 15px;
+        border: 5px solid #757a8d;
+    }
 
-    }
