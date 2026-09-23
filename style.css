@@ -1,23 +1,30 @@
 
 body {
         font-family: Baskerville,serif;
-        background-color: #e1c6c6d4;
+        background-color: #dfd0d0af;
         margin: 30px;
     }
 h1 {
     color: #504043;
-    font-size: 50px;
     text-align:center;
-    border-top: 5px solid #414244;
 }
 h2 {
         color: #2d2626;
-        font-size: 30px;
+        font-size: 45px;
     }
     P {
-        font-size: 18px;
+        font-size: 30px;
         line-height: 1.2;
         color:#494848
+    }
+    h3{
+        color: #2d2626;
+        font-size: 35px;
+    
+    }
+    h4 {
+        color: #2d2626;
+        font-size: 35px;
     }
     li {
         font-size: 20px;
@@ -27,6 +34,31 @@ h2 {
     }
     img {
         border-radius: 15px;
-        border: 8px solid #3b3e47;
+        border: 5px solid #312323;
     }
-
+div{background-color: #d4b1b1d4;
+    border: 4px solid #312323;
+    padding: 30px;
+}
+.highlight {
+    background-color: #ecdede;
+    padding: 2px;
+    border: 1px solid #312323;
+    font-size: 19px;
+    
+}
+#page-title {
+    color: #504043;
+    font-size: 70px;
+    text-align: center;
+}
+#poem {
+    background-color: #bdbbd9d4;
+    border: 4px solid #312323;
+    padding: 25px;
+}
+#hobbies {
+    background-color: #ddc7d1d4;
+    border: 4px solid #312323;
+    padding: 10px;
+}
