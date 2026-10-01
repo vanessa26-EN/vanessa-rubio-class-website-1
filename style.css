@@ -19,12 +19,14 @@ h2 {
     }
     h3{
         color: #2d2626;
-        font-size: 35px;
+        font-size: 40px;
+        text-align: top;
     
     }
     h4 {
         color: #2d2626;
-        font-size: 35px;
+        font-size: 40px;
+        text-align: top;
     }
     li {
         font-size: 20px;
@@ -35,6 +37,7 @@ h2 {
     img {
         border-radius: 15px;
         border: 5px solid #312323;
+        margin: 10px;
     }
 div{background-color: #d4b1b1d4;
     border: 4px solid #312323;
@@ -56,9 +59,16 @@ div{background-color: #d4b1b1d4;
     background-color: #bdbbd9d4;
     border: 4px solid #312323;
     padding: 25px;
+    width: 300px;
+    margin:20px;
+    height: 600px
+    
 }
 #hobbies {
     background-color: #ddc7d1d4;
     border: 4px solid #312323;
     padding: 10px;
+    width: 350px;
+    height: 600px;
+    margin: 20px;
 }
