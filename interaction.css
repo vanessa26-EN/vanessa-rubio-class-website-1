@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: #252527;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    color: #8f5336;
+}
+/* Hide the secret message by default */
+.secret-message {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 60px;
+    color: #110702;
+
+}
+/* Show the secret message on hover */
+.container:hover .secret-message {
+    display: block;
+    opacity: 1;
+}
+.container {
+   border: 2px solid #837c78;
+   padding: 20px;
+   margin: 20px;
+   background-color: #6d2414;
+}
